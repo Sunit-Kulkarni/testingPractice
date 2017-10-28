@@ -1,0 +1,15 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "mocha tests",
+  "main": "bankaccount.js",
+  "scripts": {
+    "test": "mocha --reporter nyan __test__/**/*.spec.js"
+  },
+  "author": "Sunit Kulkarni",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^4.0.1",
+    "should": "^13.1.3"
+  }
+}
